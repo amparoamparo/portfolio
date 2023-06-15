@@ -1,15 +1,17 @@
 # amparo.codes
 
-## 🖥️ Screenshots
+## Coming soon page
 
-## 🧰 Tech stack
+### 🖥️ Screenshots
+
+### 🧰 Tech stack
 
 - Astro
 - React
 - Javascript
 - Sass
 
-## 📐 Prototypes (Figma)
+### 📐 Prototypes (Figma)
 
 - [Desktop view]()
 - [Mobile view (Portrait)]()
