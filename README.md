@@ -1,6 +1,6 @@
 # amparo.codes
 
-## Tech stack
+## 🧰 Tech stack
 
 - Astro
 - React
