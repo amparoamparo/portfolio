@@ -1,5 +1,7 @@
 # amparo.codes
 
+## Screenshots
+
 ## 🧰 Tech stack
 
 - Astro
