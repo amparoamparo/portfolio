@@ -1,6 +1,6 @@
 # amparo.codes
 
-## Screenshots
+## 🖥️ Screenshots
 
 ## 🧰 Tech stack
 
@@ -8,3 +8,9 @@
 - React
 - Javascript
 - Sass
+
+## 📐 Prototypes (Figma)
+
+- [Desktop view]()
+- [Mobile view (Portrait)]()
+- [Tablet view (Portrait)]()
