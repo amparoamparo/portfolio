@@ -7,14 +7,33 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_6785737f2e02f24"
   },
   "dependencies": {
     "@astrojs/react": "^2.2.1",
+    "@storybook/addon-a11y": "^7.0.22",
     "@types/react": "^18.2.12",
     "@types/react-dom": "^18.2.5",
     "astro": "^2.6.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "react-dom": "^18.2.0",
+    "sass": "^1.63.4"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.21",
+    "@storybook/addon-interactions": "^7.0.21",
+    "@storybook/addon-links": "^7.0.21",
+    "@storybook/blocks": "^7.0.21",
+    "@storybook/react": "^7.0.21",
+    "@storybook/react-vite": "^7.0.21",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "chromatic": "^6.19.8",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.21"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "portfolio-v1-test@0.0.1"
 }

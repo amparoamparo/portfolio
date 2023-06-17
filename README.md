@@ -10,6 +10,7 @@
 - React
 - Javascript
 - Sass
+- Storybook
 
 ### 📐 Prototypes (Figma)
 
