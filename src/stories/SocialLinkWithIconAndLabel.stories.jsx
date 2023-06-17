@@ -1,4 +1,4 @@
-import SocialLinkWithIconAndLabel from "../components/SocialLinkWithIconAndLabel";
+import SocialLinkWithIconAndLabel from "../components/links/SocialLinkWithIconAndLabel";
 
 export default {
   component: SocialLinkWithIconAndLabel,

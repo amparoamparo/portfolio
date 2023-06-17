@@ -1,4 +1,4 @@
-import ButtonWithLabel from "../components/ButtonWithLabel";
+import ButtonWithLabel from "../components/buttons/ButtonWithLabel";
 
 export default {
   component: ButtonWithLabel,
