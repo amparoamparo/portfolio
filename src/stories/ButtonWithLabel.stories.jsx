@@ -5,4 +5,4 @@ export default {
   title: "Design System/Buttons/Button with label",
 };
 
-export const Example = () => <ButtonWithLabel label="Example" />;
+export const Default = () => <ButtonWithLabel label="Button" />;
