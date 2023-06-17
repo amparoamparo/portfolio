@@ -1,4 +1,6 @@
-// SocialLinkWithIcon is a reusable link component that displays an icon only, based on the provided "icon" prop.
+/**
+ * SocialLinkWithIcon is a reusable link component that displays an icon only, based on the provided "icon" prop.
+ */
 
 const SocialLinkWithIcon = ({ icon }) => {
   return (

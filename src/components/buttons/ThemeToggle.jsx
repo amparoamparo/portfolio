@@ -1,4 +1,6 @@
-// ThemeToggle is a reusable button component that displays an icon and switches between light mode and dark mode, based on the provided "switchTo" prop.
+/**
+ * ThemeToggle is a reusable button component that displays an icon and switches between light mode and dark mode, based on the provided "switchTo" prop.
+ */
 
 const ThemeToggle = ({ switchTo }) => {
   return (

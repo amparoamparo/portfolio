@@ -1,4 +1,6 @@
-// SocialLinkWithIconAndLabel is a reusable link component that displays an icon and a label, based on the provided "icon" prop.
+/**
+ * SocialLinkWithIconAndLabel is a reusable link component that displays an icon and a label, based on the provided "icon" prop.
+ */
 
 const SocialLinkWithIconAndLabel = ({ icon }) => {
   return (
