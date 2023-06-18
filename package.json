@@ -10,10 +10,14 @@
     "astro": "astro",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_6785737f2e02f24"
+    "chromatic": "npx chromatic --project-token=chpt_6785737f2e02f24",
+    "sass": "sass --watch --style=compressed src/scss/main.scss:public/css/main.css"
   },
   "dependencies": {
     "@astrojs/react": "^2.2.1",
+    "@fontsource/ibm-plex-mono": "^5.0.3",
+    "@fontsource/ibm-plex-sans": "^5.0.3",
+    "@fontsource/vt323": "^5.0.3",
     "@types/react": "^18.2.12",
     "@types/react-dom": "^18.2.5",
     "astro": "^2.6.4",
