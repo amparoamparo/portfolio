@@ -11,7 +11,9 @@ const SocialLinkWithIconAndLabel = ({ icon }) => {
         </a>
       ) : null}
       {icon === "github" ? (
-        <a href="https://github.com/amparoamparo">🐙 GitHub</a>
+        <a href="https://github.com/amparoamparo" aria-label="GitHub">
+          🐙 GitHub
+        </a>
       ) : null}
       {icon === "linkedin" ? (
         <a href="https://linkedin.com/in/amparozeballos" aria-label="LinkedIn">
