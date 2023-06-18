@@ -1,5 +1,5 @@
 const MessiGIF = () => {
-  return <div id="#messi"></div>;
+  return <div id="messi"></div>;
 };
 
 export default MessiGIF;
