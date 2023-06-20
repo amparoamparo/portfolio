@@ -1,0 +1,35 @@
+@use "colours" as *;
+
+.header__logo {
+  h1 {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+
+    a {
+      text-decoration: none;
+      color: $light-primary-dark;
+    }
+
+    a:hover {
+      color: $light-link;
+    }
+  }
+}
+
+.footer__logo {
+  display: block;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  color: $light-primary-dark;
+
+  &:hover {
+    color: $light-link;
+  }
+}
