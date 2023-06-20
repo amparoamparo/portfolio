@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-v1-test",
+  "name": "portfolio-v1",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,7 +11,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_6785737f2e02f24",
-    "sass": "sass --watch --style=compressed src/scss/main.scss:public/css/main.css"
+    "sass": "sass --watch --style=compressed --no-source-map src/scss:public/css"
   },
   "dependencies": {
     "@astrojs/react": "^2.2.1",
@@ -21,7 +21,6 @@
     "@types/react": "^18.2.12",
     "@types/react-dom": "^18.2.5",
     "astro": "^2.6.4",
-    "astro-icon": "^0.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.63.4"
@@ -38,6 +37,6 @@
     "chromatic": "^6.19.8",
     "storybook": "^7.0.21"
   },
-  "readme": "ERROR: No README data found!",
-  "_id": "portfolio-v1-test@0.0.1"
+  "readme": "README.md",
+  "_id": "portfolio-v1@0.0.1"
 }
