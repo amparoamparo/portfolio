@@ -1,24 +1,24 @@
-import SocialLinkWithIcon from "../links/SocialLinkWithIcon";
-import SocialLinkWithIconAndLabel from "../links/SocialLinkWithIconAndLabel";
+import SocialLink from "../links/SocialLink";
+import "../../scss/containers.scss";
 
 const SocialLinksContainer = ({ section }) => {
   return (
-    <address>
+    <>
       {section === "header" ? (
-        <>
-          <SocialLinkWithIconAndLabel icon="email" />
-          <SocialLinkWithIconAndLabel icon="github" />
-          <SocialLinkWithIconAndLabel icon="linkedin" />
-        </>
+        <address className="header__social-links">
+          <SocialLink icon="email" showLabel={true} />
+          <SocialLink icon="github" showLabel={true} />
+          <SocialLink icon="linkedin" showLabel={true} />
+        </address>
       ) : null}
       {section === "footer" ? (
-        <>
-          <SocialLinkWithIcon icon="email" />
-          <SocialLinkWithIcon icon="github" />
-          <SocialLinkWithIcon icon="linkedin" />
-        </>
+        <address className="footer__social-links">
+          <SocialLink icon="email" showLabel={false} />
+          <SocialLink icon="github" showLabel={false} />
+          <SocialLink icon="linkedin" showLabel={false} />
+        </address>
       ) : null}
-    </address>
+    </>
   );
 };
 
