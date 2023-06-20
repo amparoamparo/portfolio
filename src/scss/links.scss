@@ -1,0 +1,39 @@
+@use "colours" as *;
+
+.social-link {
+  display: flex;
+  width: fit-content;
+  background-color: $light-primary-light;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 0.1875rem solid $light-primary-dark;
+  box-shadow: 0 0.1875rem 0 0.009375rem $light-primary-dark;
+  transition: ease-in-out 100ms;
+
+  &:hover {
+    box-shadow: 0 0.375rem 0 0.009375rem $light-primary-dark;
+    translate: 0 -0.1875rem;
+    transition: ease-in-out 100ms;
+  }
+
+  &:active {
+    transition: ease-in-out 100ms;
+    translate: 0;
+    box-shadow: 0 0.1875rem 0 0.009375rem $light-primary-dark;
+  }
+
+  &:focus-visible {
+    box-shadow: none;
+    outline: dashed $light-primary-dark 0.1875rem;
+    outline-offset: 0.375rem;
+    transition: linear 100ms;
+  }
+
+  &__label {
+    display: none;
+  }
+
+  &__icon {
+    color: $light-primary-dark;
+  }
+}
