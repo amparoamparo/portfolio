@@ -1,0 +1,17 @@
+@use "colours" as *;
+
+.header__social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.footer__social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
