@@ -1,12 +1,14 @@
 @use "colours" as *;
 
 .header__logo {
+  margin-top: 1.5rem;
+
   h1 {
     font-family: "VT323", monospace;
     font-weight: 400;
     font-size: 2rem;
+    line-height: 1;
     text-align: center;
-    padding: 1rem;
 
     a {
       text-decoration: none;
