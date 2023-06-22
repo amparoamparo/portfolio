@@ -1,0 +1,10 @@
+.hero-image {
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-image__img {
+  width: 12.5rem;
+  padding: 0 0.25rem;
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 72%, transparent);
+  mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
+}
