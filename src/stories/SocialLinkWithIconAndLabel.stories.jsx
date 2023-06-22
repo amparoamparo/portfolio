@@ -1,12 +1,12 @@
-import SocialLinkWithIconAndLabel from "../components/links/SocialLinkWithIconAndLabel";
+import SocialLink from "../components/links/SocialLink";
 
 export default {
-  component: SocialLinkWithIconAndLabel,
-  title: "Design System/Social Links/Link with icon and label",
+  component: SocialLink,
+  title: "Design System/Social Links/Link with icon only",
 };
 
-export const Email = () => <SocialLinkWithIconAndLabel icon="email" />;
-export const GitHub = () => <SocialLinkWithIconAndLabel icon="github" />;
+export const Email = () => <SocialLink icon="email" showLabel={false} />;
+export const GitHub = () => <SocialLink icon="github" showLabel={false} />;
 GitHub.storyName = "GitHub";
-export const LinkedIn = () => <SocialLinkWithIconAndLabel icon="linkedin" />;
+export const LinkedIn = () => <SocialLink icon="linkedin" showLabel={false} />;
 LinkedIn.storyName = "LinkedIn";
