@@ -1,3 +1,63 @@
+@use "colours" as *;
+
 .hero-section {
+  display: grid;
+  gap: 1rem;
   margin: 0 2.25rem;
+  margin-bottom: 5rem;
+  color: $light-body-text;
+
+  a {
+    color: $light-link;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: solid 2px;
+    transition: ease-in-out 150ms;
+  }
+
+  a:hover {
+    border-bottom: solid 4px;
+  }
+
+  :focus-visible {
+    outline: dashed #274c67 0.1875rem;
+    outline-offset: 0.375rem;
+    transition: linear 100ms;
+  }
+
+  p {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.125rem;
+  }
+
+  ul {
+    margin: 0;
+    margin-left: 1rem;
+    padding: 0;
+  }
+
+  li {
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero-section__greeting {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: -2.5rem;
+  }
+
+  .hero-section__intro {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.4;
+
+    span {
+      color: $light-link;
+    }
+  }
 }

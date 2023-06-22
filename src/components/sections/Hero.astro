@@ -1,12 +1,18 @@
 ---
 import HeroImage from "../images/HeroImage";
+import "@fontsource/ibm-plex-mono/700-italic.css";
+import "@fontsource/ibm-plex-mono/700.css";
+import "@fontsource/ibm-plex-sans";
 import "../../scss/hero-section.scss";
 ---
 
 <section class="hero-section">
   <HeroImage theme="light" />
-  <p>Hi there! &#128075;&#127996;</p>
-  <p>
+  <p class="hero-section__greeting">
+    Hi there!
+    <!-- <span>&#128075;&#127996;</span> -->
+  </p>
+  <p class="hero-section__intro">
     I'm Amparo, an <span id="messi-trigger">Argentine-born</span> frontend developer
     based in the UK.
   </p>
