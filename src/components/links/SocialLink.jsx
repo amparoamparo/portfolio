@@ -23,8 +23,7 @@ const SocialLink = ({ icon, showLabel }) => {
     <>
       {icon === "email" ? (
         <a
-          href=""
-          // href="mailto:hello@amparo.codes"
+          href="mailto:hello@amparo.codes"
           aria-label="Email"
           className="social-link"
         >
