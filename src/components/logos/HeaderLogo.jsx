@@ -3,6 +3,7 @@
  */
 
 import "../../scss/logo.scss";
+import "@fontsource/vt323";
 
 const HeaderLogo = () => {
   return (
