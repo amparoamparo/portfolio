@@ -33,7 +33,7 @@ Here are the lighthouse scores for the website, as of 23 June 2023:
 
 ![Lighthouse scores showing 100 on each category](screenshots/lighthouse-23-06-2023.png)
 
-Gotta love seeing those fireworks! When it comes to the performance side of things, it's all thanks to [Astro](astro.build) 🚀.
+Gotta love seeing those fireworks! (Or is it confetti? 🎉) Anyway, when it comes to the performance side of things, it's all thanks to [Astro](astro.build) 🚀.
 
 ## Project Progress
 
@@ -62,14 +62,10 @@ The layout and styling for tablets, desktops, and larger screens are currently i
 Needless to say, I will be adding projects and an "About" section in the near future.
 
 In addition, I plan to implement the following enhancements:
-- Dark mode: as you can see from the Figma prototypes, all colours and assets have already been designed, they’re just waiting to be implemented.
+- Dark mode: all colours and assets have already been chosen/designed/exported, they’re just waiting to be implemented.
 - Theme toggle: add required functionality to the theme toggle to be able to switch between light and dark mode.
 
 ## Observations
-
-
-
-
 
 ### Accessibility
 
@@ -81,7 +77,7 @@ Now, in the development phase, I'm focusing on implementing accessibility featur
 
 - ARIA labels: adding ARIA labels to elements, ensuring that non-textual content, interactive elements, and more complex components are properly labeled. This enables screen readers to provide meaningful and contextual information to users.
 
-- Keyboard accessibility: making sure all interactive elements, including buttons and navigation, are easily accessible using a keyboard alone. Testing the website's functionality by navigating through the entire site using only keyboard inputs, verifying that all interactive elements receive focus and behave intuitively.
+- Keyboard accessibility: making sure all interactive elements, including buttons and navigation, are easily accessible using a keyboard alone, and receive focus and behave intuitively.
 
 - Avoiding clutter in the accessibility tree: to prevent unnecessary distractions for screen reader users, I took care to exclude decorative elements from the accessibility tree. This ensures that users receive relevant and meaningful information without being overwhelmed by excessive detail.
 
@@ -89,4 +85,4 @@ Now, in the development phase, I'm focusing on implementing accessibility featur
 
 ### Component-Driven Development (CDD) and Storybook
 
-For this project, I have embraced Component-Driven Development (CDD) for the first time. I'm also using Storybook for the first time, developing and testing individual components in isolation, to promote reusability in the component library.
+For this project, I have embraced Component-Driven Development (CDD) for the first time. I'm also using Storybook, developing and testing individual components in isolation, to promote reusability in the component library.
