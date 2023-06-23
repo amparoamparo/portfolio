@@ -17,6 +17,8 @@ In the meantime, deel free to [view the live version](https://amparo-portfolio-w
 - Storybook
 - Fontsource
 
+Deployed on Netlify.
+
 <!--
 ## 📐 Prototypes (Figma)
 
@@ -24,6 +26,14 @@ In the meantime, deel free to [view the live version](https://amparo-portfolio-w
 - [Mobile view (Portrait)](https://www.figma.com/proto/pKkpIP8lCASbhEr4iC0atA/Frontend-Portfolio-Website?page-id=298%3A2468&type=design&node-id=298-2491&viewport=790%2C487%2C0.5&scaling=scale-down&starting-point-node-id=298%3A2491)
 - [Tablet view (Portrait)](https://www.figma.com/proto/pKkpIP8lCASbhEr4iC0atA/Frontend-Portfolio-Website?page-id=298%3A2787&type=design&node-id=298-2788&viewport=727%2C487%2C0.47&scaling=scale-down&starting-point-node-id=298%3A2788)
 -->
+
+## Lighthouse scores
+
+Here are the lighthouse scores for the website, as of 23 June 2023:
+
+![Lighthouse scores showing 100 on each category](screenshots/lighthouse-23-06-2023.png)
+
+Gotta love seeing those fireworks! When it comes to the performance side of things, it's all thanks to [Astro](astro.build) 🚀.
 
 ## Project Progress
 
@@ -57,11 +67,9 @@ In addition, I plan to implement the following enhancements:
 
 ## Observations
 
-### Component-Driven Development (CDD) and Storybook
 
-For this project, I have embraced Component-Driven Development (CDD) for the first time. I'm also using Storybook for the first time, developing and testing individual components in isolation, to promote reusability in the component library.
 
-### Lighthouse scores
+
 
 ### Accessibility
 
@@ -78,3 +86,7 @@ Now, in the development phase, I'm focusing on implementing accessibility featur
 - Avoiding clutter in the accessibility tree: to prevent unnecessary distractions for screen reader users, I took care to exclude decorative elements from the accessibility tree. This ensures that users receive relevant and meaningful information without being overwhelmed by excessive detail.
 
 - Third-party tools: to enhance the accessibility evaluation process, I use browser extensions and accessibility testing tools like Chrome DevTools' [CSS Overview](https://developer.chrome.com/docs/devtools/css-overview/), and axe DevTools, amongst others.
+
+### Component-Driven Development (CDD) and Storybook
+
+For this project, I have embraced Component-Driven Development (CDD) for the first time. I'm also using Storybook for the first time, developing and testing individual components in isolation, to promote reusability in the component library.
