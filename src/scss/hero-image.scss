@@ -1,11 +1,23 @@
-.hero-image {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.hero-image__img {
+.hero-image__img-xs {
   width: 12.5rem;
-  padding: 0 0.25rem;
+  display: flex;
+  justify-self: flex-end;
   -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 72%, transparent);
   mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
+
+  @media (min-width: 56.25rem) {
+    display: none;
+  }
+}
+
+.hero-image__img-lg {
+  display: none;
+  grid-column: 2;
+  grid-row: 1;
+
+  @media (min-width: 56.25rem) {
+    height: auto;
+    display: initial;
+    // justify-self: flex-end;
+  }
 }

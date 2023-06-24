@@ -1,0 +1,13 @@
+.messi {
+  display: none;
+  position: fixed;
+  width: 12.5rem;
+}
+
+.messi-trigger {
+  text-align: center;
+
+  &:hover {
+    cursor: default;
+  }
+}

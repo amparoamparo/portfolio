@@ -2,10 +2,36 @@
 
 .hero-section {
   display: grid;
-  gap: 1rem;
   margin: 0 2.25rem;
   margin-bottom: 5rem;
   color: $light-body-text;
+
+  @media (min-width: 56.25rem) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 6rem;
+    margin: 2.5rem 6rem 8rem;
+    align-items: center;
+  }
+
+  @media (min-width: 75rem) {
+    margin: 2.5rem 12rem 10rem;
+    gap: 8rem;
+  }
+
+  @media (min-width: 112.5rem) {
+    margin: 10rem 20rem 10rem;
+  }
+}
+
+.hero-section__text {
+  display: grid;
+  gap: 1rem;
+
+  @media (min-width: 56.25rem) {
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 1.125rem;
+  }
 
   a {
     color: $light-link;
@@ -13,6 +39,10 @@
     text-decoration: none;
     border-bottom: solid 2px;
     transition: ease-in-out 150ms;
+
+    @media (min-width: 56.25rem) {
+      font-size: 1.125rem;
+    }
   }
 
   a:hover {
@@ -28,6 +58,10 @@
   p {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 1.125rem;
+
+    @media (min-width: 56.25rem) {
+      font-size: 1.25rem;
+    }
   }
 
   p:nth-of-type(3) {
@@ -43,6 +77,9 @@
     margin-left: 1rem;
     margin-top: -0.75rem;
     padding: 0;
+
+    @media (min-width: 56.25rem) {
+    }
   }
 
   li {
@@ -55,14 +92,6 @@
     }
   }
 
-  .hero-section__greeting {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 2rem;
-    margin-top: -2.5rem;
-  }
-
   .hero-section__intro {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 700;
@@ -71,6 +100,43 @@
 
     span {
       color: $light-link;
+    }
+
+    @media (min-width: 56.25rem) {
+      font-size: 2rem;
+    }
+  }
+}
+
+.hero-section__greeting {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: -2.5rem;
+
+  @media (min-width: 56.25rem) {
+    margin: 0;
+  }
+
+  p {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+
+    @media (min-width: 56.25rem) {
+      font-size: 2.5rem;
+      align-self: self-start;
+      margin: 0;
+    }
+  }
+
+  img {
+    display: none;
+
+    @media (min-width: 56.25rem) {
+      display: inline;
+      margin-top: 0.25rem;
     }
   }
 }

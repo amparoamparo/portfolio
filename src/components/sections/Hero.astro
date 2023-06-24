@@ -1,34 +1,72 @@
 ---
 import HeroImage from "../images/HeroImage";
+import MessiGIF from "../images/MessiGIF";
+
 import "@fontsource/ibm-plex-mono/700-italic.css";
 import "@fontsource/ibm-plex-mono/700.css";
 import "@fontsource/ibm-plex-sans";
 import "../../scss/hero-section.scss";
+import "../../scss/messi.scss";
 ---
 
 <section class="hero-section">
   <HeroImage theme="light" />
-  <p class="hero-section__greeting">
-    Hi there!
-    <!-- <span>&#128075;&#127996;</span> -->
-  </p>
-  <p class="hero-section__intro">
-    I'm Amparo, an <span id="messi-trigger">Argentine-born</span> frontend developer
-    based in the UK.
-  </p>
-  <p>I'm currently building my portfolio website.</p>
-  <p>In the meantime, you can:</p>
-  <ul>
-    <li>
-      <a href="https://github.com/amparoamparo">check out my GitHub</a>
-    </li>
-    <li>
-      <a href="https://linkedin.com/in/amparozeballos"
-        >connect with me on LinkedIn</a
-      >
-    </li>
-    <li>
-      <a href="mailto:hello@amparo.codes">send me an email</a>
-    </li>
-  </ul>
+  <div class="hero-section__text">
+    <div class="hero-section__greeting">
+      <p>Hi there!</p>
+      <img
+        src="/assets/images/waving-hand.webp"
+        alt=""
+        width="48"
+        height="48"
+      />
+    </div>
+    <p class="hero-section__intro">
+      I'm Amparo, an <span class="messi-trigger">Argentine-born</span> frontend developer
+      based in the UK.
+    </p>
+    <MessiGIF />
+    <p>I'm currently building my portfolio website.</p>
+    <p>In the meantime, you can:</p>
+    <ul>
+      <li>
+        <a href="https://github.com/amparoamparo">check out my GitHub</a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/in/amparozeballos"
+          >connect with me on LinkedIn</a
+        >
+      </li>
+      <li>
+        <a href="mailto:hello@amparo.codes">send me an email</a>
+      </li>
+    </ul>
+  </div>
 </section>
+
+<script>
+  const messiTrigger = document.querySelector(".messi-trigger");
+  const messi = document.querySelector(".messi");
+
+  messiTrigger.addEventListener("mouseover", () => {
+    if (window.matchMedia("(min-width: 56.25rem)").matches) {
+      messi.style.display = "block";
+    }
+  });
+
+  messiTrigger.addEventListener("mouseout", () => {
+    if (window.matchMedia("(min-width: 56.25rem)").matches) {
+      messi.style.display = "none";
+    }
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (window.matchMedia("(min-width: 56.25rem)").matches) {
+      let x = e.pageX;
+      let y = e.pageY;
+
+      messi.style.top = (y - 210) / 16 + "rem";
+      messi.style.left = (x - 100) / 16 + "rem";
+    }
+  });
+</script>
