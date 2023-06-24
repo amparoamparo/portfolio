@@ -11,15 +11,32 @@ footer {
   place-items: center;
   gap: 2rem;
 
+  @media (min-width: 56.25rem) {
+    grid-template-columns: 1fr 1fr;
+    padding: 6rem;
+    background-image: url("/assets/backgrounds/footer-bg-desktop.svg");
+  }
+
+  @media (min-width: 75rem) {
+    padding: 12rem 12rem 3rem;
+  }
+
+  @media (min-width: 112.5rem) {
+    padding: 16rem 20rem 3rem;
+  }
+
   p {
     color: $light-primary-dark;
     font-family: "IBM Plex Mono", monospace;
     font-style: italic;
     font-size: 0.9rem;
-  }
 
-  span {
-    font-style: normal;
+    @media (min-width: 56.25rem) {
+      grid-column: 2;
+      grid-row: 2;
+      justify-self: end;
+      margin-top: -1rem;
+    }
   }
 
   .footer__mate-text {
@@ -28,6 +45,12 @@ footer {
     font-weight: 400;
     font-size: 1.2rem;
     margin-top: -1.5rem;
+
+    @media (min-width: 56.25rem) {
+      grid-column: 2;
+      grid-row: 3;
+      justify-self: end;
+    }
 
     a {
       color: $light-link;

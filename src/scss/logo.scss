@@ -36,4 +36,9 @@
   &:hover {
     color: $light-link;
   }
+
+  @media (min-width: 56.25rem) {
+    grid-column: 2;
+    justify-self: end;
+  }
 }
