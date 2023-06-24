@@ -14,7 +14,6 @@
     "sass": "sass --watch --style=compressed --no-source-map src/scss:public/css"
   },
   "dependencies": {
-    "@astrojs/partytown": "^1.2.3",
     "@astrojs/react": "^2.2.1",
     "@fontsource/ibm-plex-mono": "^5.0.3",
     "@fontsource/ibm-plex-sans": "^5.0.3",
