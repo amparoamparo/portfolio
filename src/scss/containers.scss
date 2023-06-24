@@ -5,7 +5,10 @@
   flex-direction: row;
   justify-content: center;
   gap: 2rem;
-  margin: 2rem 0 2.75rem 0;
+
+  @media (min-width: 56.25rem) {
+    place-self: end;
+  }
 }
 
 .footer__social-links {

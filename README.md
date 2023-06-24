@@ -62,7 +62,9 @@ The layout and styling for tablets, desktops, and larger screens are currently i
 Needless to say, I will be adding projects and an "About" section in the near future.
 
 In addition, I plan to implement the following enhancements:
+
 - Dark mode: all colours and assets have already been chosen/designed/exported, they’re just waiting to be implemented.
+
 - Theme toggle: add required functionality to the theme toggle to be able to switch between light and dark mode.
 
 ## Observations

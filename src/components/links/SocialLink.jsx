@@ -9,6 +9,7 @@
  */
 
 import "../../scss/links.scss";
+import "@fontsource/ibm-plex-mono/600.css";
 
 const SocialLink = ({ icon, showLabel }) => {
   const labelOptions = {

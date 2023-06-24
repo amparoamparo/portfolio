@@ -1,13 +1,15 @@
 @use "colours" as *;
 
 .header__logo {
-  margin-top: 1.5rem;
+  @media (min-width: 56.25rem) {
+    place-self: start;
+  }
 
   h1 {
     font-family: "VT323", monospace;
     font-weight: 400;
     font-size: 2rem;
-    line-height: 1;
+    // line-height: 1;
     text-align: center;
 
     a {
