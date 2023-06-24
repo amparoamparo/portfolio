@@ -1,7 +1,11 @@
 import "../../scss/messi.scss";
 
 const MessiGIF = () => {
-  return <img src="/assets/images/messi.gif" alt="" className="messi" />;
+  return (
+    <video autoPlay loop className="messi">
+      <source src="/assets/images/messi.webm" type="video/webm" />
+    </video>
+  );
 };
 
 export default MessiGIF;
