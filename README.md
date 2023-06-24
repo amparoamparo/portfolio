@@ -6,7 +6,7 @@ Please note I'm following a mobile-first approach, so at this time the layout an
 
 I'll be updating the README as soon as I make significant changes.
 
-In the meantime, deel free to [view the live version](https://amparo-portfolio-wip.netlify.app/) of my "coming soon" page for mobile.
+In the meantime, feel free to [view the live version](https://amparo-portfolio-wip.netlify.app/) of my "coming soon" page for mobile.
 
 ## 🧰 Tech stack
 
