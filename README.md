@@ -27,6 +27,39 @@ Deployed on Cloudflare.
 - [Tablet view (Portrait)](https://www.figma.com/proto/pKkpIP8lCASbhEr4iC0atA/Frontend-Portfolio-Website?page-id=298%3A2787&type=design&node-id=298-2788&viewport=727%2C487%2C0.47&scaling=scale-down&starting-point-node-id=298%3A2788)
 -->
 
+## 🧭 Roadmap
+
+### ✅ What's done
+
+- Content
+
+- Assets
+
+- Mobile styling
+
+- Desktop styling
+
+### 👷‍♀️ What I'm working on
+
+- Styling 404 page
+
+- Tablet styling
+
+
+### 🔮 Future plans
+
+Needless to say, in the near future, I'll be adding:
+
+- projects, and
+
+- an "About" section.
+
+In addition, I plan to implement the following enhancements:
+
+- Dark mode: all colours and assets have already been chosen/designed/exported, they’re just waiting to be implemented.
+
+- Theme toggle: add required functionality to the theme toggle to be able to switch between light and dark mode.
+
 ## Lighthouse scores
 
 Here are the lighthouse scores for the website, as of 23 June 2023:
@@ -42,46 +75,6 @@ There's always room for improvement, as there are more factors to consider when 
 [![Score for amparo.codes on Ecograder](/screenshots/ecograder--25-06-2023.png)](https://ecograder.com/report/cZzhmCM23KHrppp0atWXAfs2)
 
 [![Score for amparo.codes on Website Carbon Calculator](/screenshots/websitecarbon--25-06-2023.png)](https://www.websitecarbon.com/website/amparo-codes/)
-
-## Project Progress
-
-### What's done
-
-#### ✅ Content
-
-All content for the website is complete, but of course will be updated once I’m ready to introduce projects and other sections.
-
-#### ✅ Assets
-
-All relevant assets, like images and icons, have been collected/exported from Figma and included in the project.
-
-#### ✅ Mobile styling
-
-The initial styling for mobile devices, following a mobile-first approach, has been implemented.
-
-#### ✅ Desktop styling
-
-The styling for desktops and larger screens has been implemented.
-
-### What I'm working on
-
-#### 👷‍♀️ Tablet styling
-
-The layout and styling for tablets is currently in progress to ensure a consistent experience across different viewports.
-
-### Future plans
-
-Needless to say, in the near future, I'll be adding:
-
-- projects, and
-
-- an "About" section.
-
-In addition, I plan to implement the following enhancements:
-
-- Dark mode: all colours and assets have already been chosen/designed/exported, they’re just waiting to be implemented.
-
-- Theme toggle: add required functionality to the theme toggle to be able to switch between light and dark mode.
 
 ## Observations
 
