@@ -4,7 +4,7 @@ This repo contains the code for my personal portfolio website, currently **under
 
 I'll be updating the README as soon as I make significant changes.
 
-[Visit the website](https://amparo.codes)
+😃👉 [Visit the website](https://amparo.codes)
 
 ## 🧰 Tech stack
 
