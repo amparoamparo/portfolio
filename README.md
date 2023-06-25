@@ -8,12 +8,14 @@ I'll be updating the README as soon as I make significant changes.
 
 ## 🧰 Tech stack
 
+Designed and prototyped in Figma.
+
+Built with:
 - Astro
 - React
 - Javascript
 - Sass
 - Storybook
-- Fontsource
 
 Deployed on Cloudflare.
 
@@ -33,7 +35,7 @@ Here are the lighthouse scores for the website, as of 23 June 2023:
 
 Gotta love seeing those fireworks! (Or is it confetti? 🎉) Anyway, when it comes to the performance side of things, it's all thanks to [Astro](astro.build) 🚀.
 
-## Sustainability
+## Sustainability scores
 
 There's always room for improvement, as there are more factors to consider when it comes to sustainable web design / development, but I'm pretty happy with these scores.
 
