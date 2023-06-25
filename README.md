@@ -2,8 +2,6 @@
 
 This repo contains the code for my personal portfolio website, currently **under construction**.
 
-Please note I'm following a mobile-first approach, so at this time the layout and styling for larger screens, such as desktops and tablets, is still being worked on and is not ready for public viewing yet.
-
 I'll be updating the README as soon as I make significant changes.
 
 ## 🧰 Tech stack
@@ -35,7 +33,11 @@ Gotta love seeing those fireworks! (Or is it confetti? 🎉) Anyway, when it com
 
 ## Sustainability
 
+There's always room for improvement, as there are more factors to consider when it comes to sustainable web design / development, but I'm pretty happy with these scores.
 
+[![Score for amparo.codes on Ecograder](/screenshots/ecograder--25-06-2023.png)](https://ecograder.com/report/cZzhmCM23KHrppp0atWXAfs2)
+
+[![Score for amparo.codes on Website Carbon Calculator](/screenshots/websitecarbon--25-06-2023.png)](https://www.websitecarbon.com/website/amparo-codes/)
 
 ## Project Progress
 
