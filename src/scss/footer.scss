@@ -13,16 +13,16 @@ footer {
 
   @media (min-width: 56.25rem) {
     grid-template-columns: 1fr 1fr;
-    padding: 6rem;
+    padding: 10rem 4rem 3rem;
     background-image: url("/assets/backgrounds/footer-bg-desktop.svg");
   }
 
   @media (min-width: 75rem) {
-    padding: 12rem 12rem 3rem;
+    padding: 12rem 6rem 3rem;
   }
 
   @media (min-width: 112.5rem) {
-    padding: 16rem 20rem 3rem;
+    padding: 16rem 12rem 3rem;
   }
 
   p {

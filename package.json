@@ -14,13 +14,14 @@
     "sass": "sass --watch --style=compressed --no-source-map src/scss:public/css"
   },
   "dependencies": {
+    "@astrojs/image": "^0.17.1",
     "@astrojs/react": "^2.2.1",
     "@fontsource/ibm-plex-mono": "^5.0.3",
     "@fontsource/ibm-plex-sans": "^5.0.3",
     "@fontsource/vt323": "^5.0.3",
     "@types/react": "^18.2.12",
     "@types/react-dom": "^18.2.5",
-    "astro": "^2.6.4",
+    "astro": "^2.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.63.4"
