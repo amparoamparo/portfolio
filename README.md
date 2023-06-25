@@ -6,8 +6,6 @@ Please note I'm following a mobile-first approach, so at this time the layout an
 
 I'll be updating the README as soon as I make significant changes.
 
-In the meantime, feel free to [view the live version](https://amparo-portfolio-wip.netlify.app/) of my "coming soon" page for mobile.
-
 ## 🧰 Tech stack
 
 - Astro
@@ -17,7 +15,7 @@ In the meantime, feel free to [view the live version](https://amparo-portfolio-w
 - Storybook
 - Fontsource
 
-Deployed on Netlify.
+Deployed on Cloudflare.
 
 <!--
 ## 📐 Prototypes (Figma)
@@ -35,6 +33,10 @@ Here are the lighthouse scores for the website, as of 23 June 2023:
 
 Gotta love seeing those fireworks! (Or is it confetti? 🎉) Anyway, when it comes to the performance side of things, it's all thanks to [Astro](astro.build) 🚀.
 
+## Sustainability
+
+
+
 ## Project Progress
 
 ### What's done
@@ -51,15 +53,23 @@ All relevant assets, like images and icons, have been collected/exported from Fi
 
 The initial styling for mobile devices, following a mobile-first approach, has been implemented.
 
+#### ✅ Desktop styling
+
+The styling for desktops and larger screens has been implemented.
+
 ### What I'm working on
 
-#### 👷‍♀️ Tablet and desktop styling
+#### 👷‍♀️ Tablet styling
 
-The layout and styling for tablets, desktops, and larger screens are currently in progress to ensure a consistent experience across different viewports.
+The layout and styling for tablets is currently in progress to ensure a consistent experience across different viewports.
 
 ### Future plans
 
-Needless to say, I will be adding projects and an "About" section in the near future.
+Needless to say, in the near future, I'll be adding:
+
+- projects, and
+
+- an "About" section.
 
 In addition, I plan to implement the following enhancements:
 
@@ -87,4 +97,4 @@ Now, in the development phase, I'm focusing on implementing accessibility featur
 
 ### Component-Driven Development (CDD) and Storybook
 
-For this project, I have embraced Component-Driven Development (CDD) for the first time. I'm also using Storybook, developing and testing individual components in isolation, to promote reusability in the component library.
+For this project, I have embraced Component-Driven Development (CDD) and used Storybook for the first time.
