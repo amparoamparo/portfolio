@@ -7,11 +7,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_6785737f2e02f24",
-    "sass": "sass --watch --style=compressed --no-source-map src/scss:public/css"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/image": "^0.17.1",
@@ -19,25 +15,11 @@
     "@fontsource/ibm-plex-mono": "^5.0.3",
     "@fontsource/ibm-plex-sans": "^5.0.3",
     "@fontsource/vt323": "^5.0.3",
-    "@types/react": "^18.2.12",
-    "@types/react-dom": "^18.2.5",
-    "astro": "^2.7.0",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "astro": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.63.4"
-  },
-  "devDependencies": {
-    "@storybook/addon-a11y": "^7.0.22",
-    "@storybook/addon-essentials": "^7.0.21",
-    "@storybook/addon-interactions": "^7.0.21",
-    "@storybook/addon-links": "^7.0.21",
-    "@storybook/blocks": "^7.0.21",
-    "@storybook/react": "^7.0.21",
-    "@storybook/react-vite": "^7.0.21",
-    "@storybook/testing-library": "^0.0.14-next.2",
-    "chromatic": "^6.19.8",
-    "storybook": "^7.0.21"
-  },
-  "readme": "README.md",
-  "_id": "portfolio-v1@0.0.1"
+    "sass": "^1.63.6"
+  }
 }
