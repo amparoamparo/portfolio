@@ -11,11 +11,11 @@ I'll be updating the README as soon as I make significant changes.
 Designed and prototyped in Figma.
 
 Built with:
+
 - Astro
 - React
 - Javascript
 - Sass
-- Storybook
 
 Deployed on Cloudflare.
 
@@ -44,7 +44,6 @@ Deployed on Cloudflare.
 - Styling 404 page
 
 - Tablet styling
-
 
 ### 🔮 Future plans
 
@@ -93,7 +92,3 @@ Now, in the development phase, I'm focusing on implementing accessibility featur
 - Avoiding clutter in the accessibility tree: to prevent unnecessary distractions for screen reader users, I took care to exclude decorative elements from the accessibility tree. This ensures that users receive relevant and meaningful information without being overwhelmed by excessive detail.
 
 - Third-party tools: to enhance the accessibility evaluation process, I use browser extensions and accessibility testing tools like Chrome DevTools' [CSS Overview](https://developer.chrome.com/docs/devtools/css-overview/), and axe DevTools, amongst others.
-
-### Component-Driven Development (CDD) and Storybook
-
-For this project, I have embraced Component-Driven Development (CDD) and used Storybook for the first time.
