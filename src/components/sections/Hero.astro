@@ -46,12 +46,14 @@ import "../../scss/messi.scss";
 
   messiTrigger.addEventListener("mouseover", () => {
     if (window.matchMedia("(min-width: 56.25rem)").matches) {
+      messi.play();
       messi.style.display = "block";
     }
   });
 
   messiTrigger.addEventListener("mouseout", () => {
     if (window.matchMedia("(min-width: 56.25rem)").matches) {
+      messi.pause();
       messi.style.display = "none";
     }
   });
