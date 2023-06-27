@@ -65,7 +65,7 @@ Here are the lighthouse scores for the website, as of 23 June 2023:
 
 ![Lighthouse scores showing 100 on each category](screenshots/lighthouse-23-06-2023.png)
 
-Gotta love seeing those fireworks! (Or is it confetti? 🎉) Anyway, when it comes to the performance side of things, it's all thanks to [Astro](astro.build) 🚀.
+Gotta love seeing those fireworks! (Or is it confetti? 🎉) Anyway, when it comes to the performance side of things, it's all thanks to [Astro](https://astro.build) 🚀.
 
 ## Sustainability scores
 
