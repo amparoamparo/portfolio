@@ -39,11 +39,11 @@ Deployed on Cloudflare.
 
 - Desktop styling
 
+- Tablet styling
+
 ### 👷‍♀️ What I'm working on
 
 - Styling 404 page
-
-- Tablet styling
 
 ### 🔮 Future plans
 
