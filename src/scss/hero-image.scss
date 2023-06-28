@@ -6,7 +6,12 @@
   -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 72%, transparent);
   mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
 
-  @media (min-width: 56.25rem) {
+  // @media (min-width: 37.5rem) {
+  //   justify-self: center;
+  //   width: 50%;
+  // }
+
+  @media (min-width: 37.5rem) {
     display: none;
   }
 }
@@ -16,7 +21,7 @@
   grid-column: 2;
   grid-row: 1;
 
-  @media (min-width: 56.25rem) {
+  @media (min-width: 37.5rem) {
     height: auto;
     display: initial;
     justify-self: flex-end;

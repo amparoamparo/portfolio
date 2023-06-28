@@ -1,7 +1,7 @@
 @use "colours" as *;
 
 .header__logo {
-  @media (min-width: 56.25rem) {
+  @media (min-width: 37.5rem) {
     place-self: start;
   }
 
@@ -9,7 +9,6 @@
     font-family: "VT323", monospace;
     font-weight: 400;
     font-size: 2rem;
-    // line-height: 1;
     text-align: center;
 
     a {
