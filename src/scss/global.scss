@@ -5,31 +5,31 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-::-webkit-scrollbar {
-  background-color: $light-primary-light;
-  width: 1.4rem;
-}
+// ::-webkit-scrollbar {
+//   background-color: $light-primary-light;
+//   width: 1.4rem;
+// }
 
-::-webkit-scrollbar-track {
-  background-color: $light-primary-light;
-  border-radius: 100vw;
-  margin: 0.4rem;
-}
+// ::-webkit-scrollbar-track {
+//   background-color: $light-primary-light;
+//   border-radius: 100vw;
+//   margin: 0.4rem;
+// }
 
-::-webkit-scrollbar-thumb {
-  background-color: $light-primary-dark;
-  border-radius: 100vw;
-  border: $light-primary-light 0.2rem solid;
-}
+// ::-webkit-scrollbar-thumb {
+//   background-color: $light-primary-dark;
+//   border-radius: 100vw;
+//   border: $light-primary-light 0.2rem solid;
+// }
 
-::-webkit-scrollbar-thumb:hover {
-  background-color: $light-link;
-}
+// ::-webkit-scrollbar-thumb:hover {
+//   background-color: $light-link;
+// }
 
-::-webkit-scrollbar-thumb:active {
-  outline: 0.2rem dashed black;
-}
+// ::-webkit-scrollbar-thumb:active {
+//   outline: 0.2rem dashed black;
+// }
 
-::-webkit-scrollbar-button {
-  display: none;
-}
+// ::-webkit-scrollbar-button {
+//   display: none;
+// }
